@@ -30,14 +30,18 @@ To test various things with GMS2 engine, but mostly in performance.
 
 
 ### 3. Result 
+      
+      LuaJIT
+      Array sum = 1500000000
+      Array time = 0.050399
 
       Lua 5.4
       Array sum = 1500000000
       Array time = 0.348525
 
-      LuaJIT
+      Rust
       Array sum = 1500000000
-      Array time = 0.050399
+      Array time = 1.628 ms
  
       GMS2022.6.1.40
       Array sum = 1500000000
