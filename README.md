@@ -31,17 +31,17 @@ To test various things with GMS2 engine, but mostly in performance.
 
 ### 3. Result 
 
--- Lua 5.4
- Array sum = 1500000000
- Array time = 0.348525
+      Lua 5.4
+      Array sum = 1500000000
+      Array time = 0.348525
 
--- LuaJIT
- Array sum = 1500000000
- Array time = 0.050399
+      LuaJIT
+      Array sum = 1500000000
+      Array time = 0.050399
  
--- GMS2022.6.1.40
- Array sum = 1500000000
- Array time = 4.59
+      GMS2022.6.1.40
+      Array sum = 1500000000
+      Array time = 4.59
  
  
  ### 4. Takeaway
