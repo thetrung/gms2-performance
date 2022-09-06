@@ -1,8 +1,8 @@
 use std::time::{SystemTime};
 
-fn benchmark_array(loops: i128){
+fn benchmark_array(loops: i32){
     let mut sum = 0;
-    let a : Vec<i128> = vec![10, 20, 30, 40, 50];
+    let a : Vec<i32> = vec![10, 20, 30, 40, 50];
 
     for _ in 0..loops {
         sum = sum + a[0];
